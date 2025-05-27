@@ -114,13 +114,18 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- **[Volume](week%204/volume/volume.c)** - _modify the volume of an audio file._
+- **[Emojize](week%204/volume/volume.c)** - _modify the volume of an audio file._
 
-- **[Filter Less](week%204/filter-less)** - _program that applies filters to BMPs._
+- **[Frank, Ian and Glen's Letters](week%204/filter-less)** - _program that applies filters to BMPs._
 
-- **[Filter More](week%204/filter-more)** - _program that applies filters to BMPs._
+- **[Adieu, Adieu](week%204/filter-more)** - _program that applies filters to BMPs._
 
-- **[Recover](week%204/recover)** - _program that recovers JPEGs from a forensic image._
+- **[Guessing Game](week%204/recover)** - _program that recovers JPEGs from a forensic image._
+
+- **[Little Professor](week%204/recover)** - _program that recovers JPEGs from a forensic image._
+
+- **[Bitcoin Price Index](week%204/recover)** - _program that recovers JPEGs from a forensic image._
+
 
 ---
 
@@ -130,9 +135,14 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- **[Inheritance](week%205/inheritance)** - _simulates the inheritance of blood types for each member of a family._
+- **[Testing my twittr](week%205/inheritance)** - _simulates the inheritance of blood types for each member of a family._
 
-- **[Speller](week%205/speller)** - _program that spell-checks a file using a hash table._
+- **[Back to the Bank](week%205/speller)** - _program that spell-checks a file using a hash table._
+
+- **[Re-requesting a Vanity Plate](week%205/speller)** - _program that spell-checks a file using a hash table._
+
+- **[Refueling](week%205/speller)** - _program that spell-checks a file using a hash table._
+
 
 ---
 
@@ -143,15 +153,15 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 
-- **[Hello](week%206/hello.py)** - _ print a hello + your name 
+- **[Lines of Code](week%206/hello.py)** - _ print a hello + your name 
 
-- **[Mario](week%206/mario.py)** - _create an adjacent pyramid of blocks._
+- **[Pizza Py](week%206/mario.py)** - _create an adjacent pyramid of blocks._
 
-- **[Cash](week%206/cash.py)** - _minimize the number of coins given to a customer when making a change using greedy algorithms._
+- **[Scourgify](week%206/cash.py)** - _minimize the number of coins given to a customer when making a change using greedy algorithms._
 
 - **[Readability](week%206/readability.py)** - _computes the approximate grade level needed to comprehend some text._
 
-- **[DNA](week%206/dna)** -  _program that identifies a person based on their DNA._
+- **[CS50 P-Shirt](week%206/dna)** -  _program that identifies a person based on their DNA._
 
 ---
 
@@ -161,11 +171,15 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- **[Songs](week%207/songs)** - _SQL queries that answer questions about a database of songs._
+- **[NUMB3RS](week%207/songs)** - _SQL queries that answer questions about a database of songs._
 
-- **[Movies](week%207/movies/)** - _SQL queries that answer questions about a database of movies._
+- **[Watch on YouTube](week%207/movies/)** - _SQL queries that answer questions about a database of movies._
 
-- **[Fiftyville](week%207/fiftyville)** - _write SQL queries to solve a mystery._
+- **[ Working 9 to 5](week%207/fiftyville)** - _write SQL queries to solve a mystery._
+
+- **[ Regular, um, Expressions](week%207/fiftyville)** - _write SQL queries to solve a mystery._
+
+- **[Response Validation](week%207/fiftyville)** - _write SQL queries to solve a mystery._
 
 ---
 
@@ -175,10 +189,12 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- **[Trivia](week%208/trivia)** - _simple webpage that lets users answer trivia questions._
+- **[Seasons of Love](week%208/trivia)** - _simple webpage that lets users answer trivia questions._
 
-- **[Homepage](week%208/homepage)** - _simple web application with multiple pages._
+- **[Cookie Jar](week%208/homepage)** - _simple web application with multiple pages._
 
+- **[ CS50 Shirtificate](week%208/homepage)** - _simple web application with multiple pages._
+  
 ---
 
 ### :arrow_forward: **Week 9 - Et Cetera**
@@ -187,20 +203,7 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- **[Birthdays](week%209/birthdays)** - _web application that keeps track of birthdays._
-
-- **[Finance](week%209/finance)** - _website via which users can 'buy' and 'sell' stocks._
-
----
-
-### :arrow_forward: **Final Project**
-
-<br>
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-
-
-- **[MyFincance Website](project)** - _ simple finance tracker  website_.
+- **[Final Project](week%209/birthdays)** - _web application that keeps track of birthdays._
 
 ---
 
