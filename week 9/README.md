@@ -1,4 +1,4 @@
-# password generator
+# Password Generator
 #### Video Demo:  <[https://youtu.be/j7HHUeYwAGc]() HERE>
 #### Description:
 
