@@ -37,50 +37,78 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 - **[Notes](notes)** - _contains notes I took from various sources, mostly from each week's notes section._
 
 ---
-
-### :arrow_forward: **Week 1 - C**
+### :arrow_forward: **Week 0 - Functions, Variables**
 
 <br>
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- **[Hello](week%201/hello.c)** - _ print a hello + your name 
+- **[Indoor Voice](week%200/indoor.py)** - _ Converts user input to lowercase and prints it. _
  
-- **[Mario](week%201/mario.c)** - _create an adjacent pyramid of blocks._
+- **[Playback Speed](week%200/playback.py)** - _Replaces spaces in user input with "..." and prints the modified string._
 
-- **[Cash](week%201/cash.c)** - _minimize the number of coins given to a customer when making a change using greedy algorithms._
+- **[Making Faces](week%200/faces.py)** - Replaces text emoticons :) with 🙂 and :( with 🙁 in user input, then prints.
+
+- **[Einstein](week%200/einstein.py)** - _Calculates the energy (E) from mass (m) using Einstein's mass-energy equivalence formula (E=mcˆ2), where c is the speed of light._
+ 
+- **[Tip Calculator](week%200/tip.py)** - _Calculates a tip amount based on user-provided meal cost and percentage, then prints the formatted tip._
 
 ---
 
-### :arrow_forward: **Week 2 - Arrays**
+### :arrow_forward: **Week 1 - Conditionals**
 
 <br>
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- **[Scrabble](week%202/scrabble.c)** - _determine which of two scrabble words is worth more._
+- **[Deep Thought](week%201/deep.py)** - _Checks if user input, after normalization, matches "42" or "fortytwo" and prints "yes" or "no"._
 
-- **[Substitution](week%202/substitution.c)** - _program that encrypts messages using Caesar's cipher._
+- **[Home Federal Savings Bank](week%201/bank.py)** - _Determines a monetary value ($0, $20, or $100) based on the initial characters of a normalized user-provided greeting._
 
-- **[Readability](week%202/readability.c)** - _calculates the approximate reading grade level of a given text using the Coleman-Liau index._
+- **[File Extensions](week%201/extensions.py)** - _Determines and prints the MIME type for a user-provided filename based on its extension, defaulting to application/octet-stream if unknown._
+
+- **[Math Interpreter](week%201/interpreter.py)** - _Evaluates a basic arithmetic expression (addition, subtraction, multiplication, or division) provided by the user and prints the floating-point result, handling division by zero._
+
+- **[Meal Time](week%201/meal.py)** - _dentifies and prints "breakfast time", "lunch time", or "dinner time" based on user-provided input, converting the time to a 24-hour float._
 
 ---
 
-### :arrow_forward: **Week 3 - Algorithms**
+### :arrow_forward: **Week 2 - Loops**
 
 <br>
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- **[Sort](week%203/sort)** - _analyze three sorting programs to determine which algorithms they use._
+- **[Camel Case](week%202/camel.py)** - _Converts a user-provided string from camelCase to snake_case by inserting underscores before uppercase letters and converting them to lowercase._
 
-- **[Plurality](week%203/plurality.c)** - _program that runs a plurality election._
+- **[Coke Machine](week%202/coke/coke.py)** - _Simulates a vending machine transaction, prompting the user to insert specific coin denominations until a $50 amount is paid, then calculates and prints change owed._
 
-- **[Runoff](week%203/runoff.c)** - _program that runs a runoff election._
+- **[Just setting up my twttr](week%202/twttr/twttr.py)** - _Removes all vowels (case-insensitive) from user input and prints the resulting string.
+
+- **[Vanity Plates](week%202/plates/plates.py)** - _Validates if a user-provided license plate adheres to specific rules: length (2-6 characters), starting with two letters, no numbers before letters, first number not '0', and only alphanumeric characters allowed._
+
+- **[Nutrition Facts](week%202/nutrition/nutrition.py)** - _Retrieves and prints the calorie count for a user-specified fruit by looking it up in a predefined dictionary._
+
 
 ---
 
-### :arrow_forward: **Week 4 - Memory**
+### :arrow_forward: **Week 3 - Exceptions**
+
+<br>
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+- **[Fuel Gauge](week%203/fuel/fuel.py)** - _Calculates a fuel tank's percentage full from a user-provided fraction, displaying "E" for 1% or less, "F" for 99% or more, or the percentage otherwise._
+
+- **[Felipe's Taqueria](week%203/taqueria/taqueria.py)** - _Calculates and continuously displays the running total cost of items from a predefined menu as the user inputs them, stopping on EOF._
+
+- **[Grocery List](week%203/grocery/grocery.py)** - _Reads lines of user input until EOF, then counts and prints each unique item, sorted alphabetically, along with its frequency._
+
+- **[Outdated](week%203/outdated/outdated.py)** - _Parses user-provided dates in MM/DD/YYYY or Month DD, YYYY format, validates them, and prints the date in YYYY-MM-DD format._
+
+---
+
+### :arrow_forward: **Week 4 - Libraries**
 
 <br>
 
@@ -96,7 +124,7 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ---
 
-### :arrow_forward: **Week 5 - Data Structures**
+### :arrow_forward: **Week 5 - Unit Tests**
 
 <br>
 
@@ -108,7 +136,7 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ---
 
-### :arrow_forward: **Week 6 - Python**
+### :arrow_forward: **Week 6 - File I/O**
 
 <br>
 
@@ -127,7 +155,7 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ---
 
-### :arrow_forward: **Week 7 - SQL**
+### :arrow_forward: **Week 7 - Regular Expressions**
 
 <br>
 
@@ -141,7 +169,7 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ---
 
-### :arrow_forward: **Week 8 - HTML, CSS, JavaScript**
+### :arrow_forward: **Week 8 - Object-Oriented Programming**
 
 <br>
 
@@ -153,7 +181,7 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ---
 
-### :arrow_forward: **Week 9 - Flask**
+### :arrow_forward: **Week 9 - Et Cetera**
 
 <br>
 
