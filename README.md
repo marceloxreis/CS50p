@@ -114,17 +114,17 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- **[Emojize](week%204/volume/volume.c)** - _modify the volume of an audio file._
+- **[Emojize](week%204/emojize/emojize.py)** - _Replaces emoji aliases in user input with their corresponding emoji characters using the emoji library._
 
-- **[Frank, Ian and Glen's Letters](week%204/filter-less)** - _program that applies filters to BMPs._
+- **[Frank, Ian and Glen's Letters](week%204/figlet/figlet.py)** - Renders user input text in ASCII art using a specified font from command-line arguments or a random font if none is specified._
 
-- **[Adieu, Adieu](week%204/filter-more)** - _program that applies filters to BMPs._
+- **[Adieu, Adieu](week%204/adieu/adieu.py)** - _Greets a list of names provided by the user, formatting the output for one, two, or multiple names with "Adieu, adieu, to..."._
 
-- **[Guessing Game](week%204/recover)** - _program that recovers JPEGs from a forensic image._
+- **[Guessing Game](week%204/game/game.py)** - _Prompts the user for a positive integer level, then generates a random number within that range for the user to guess, providing "Too small!", "Too large!", or "Just right!" feedback._
 
-- **[Little Professor](week%204/recover)** - _program that recovers JPEGs from a forensic image._
+- **[Little Professor](week%204/professor/professor.py)** - _Administers a 10-problem arithmetic quiz at a user-selected difficulty level, providing up to three attempts per question and displaying the correct answer after failures, then reports the final score._
 
-- **[Bitcoin Price Index](week%204/recover)** - _program that recovers JPEGs from a forensic image._
+- **[Bitcoin Price Index](week%204/bitcoin/bitcoin.py)** - _Fetches the current Bitcoin price in USD from an API, then calculates and prints the USD equivalent of a user-provided Bitcoin amount from a command-line argument._
 
 
 ---
@@ -135,13 +135,13 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- **[Testing my twittr](week%205/inheritance)** - _simulates the inheritance of blood types for each member of a family._
+- **[Testing my twittr](week%205/test_twttr)** - _Defines a function shorten that removes all vowels from a string, includes a test_shorten function to verify its behavior with various inputs, and a main function to get user input and apply the shorten function._
 
-- **[Back to the Bank](week%205/speller)** - _program that spell-checks a file using a hash table._
+- **[Back to the Bank](week%205/test_bank)** - _Tests the value function by asserting its output for various string inputs against expected monetary values._
 
-- **[Re-requesting a Vanity Plate](week%205/speller)** - _program that spell-checks a file using a hash table._
+- **[Re-requesting a Vanity Plate](week%205/test_plates)** - _Tests the is_valid function by asserting its return value for various valid and invalid license plate strings according to predefined rules._
 
-- **[Refueling](week%205/speller)** - _program that spell-checks a file using a hash table._
+- **[Refueling](week%205/test_fuel)** - _Tests convert and gauge functions from the fuel module, verifying convert correctly processes valid fractions and raises appropriate errors for invalid inputs, and gauge accurately formats fuel levels._
 
 
 ---
@@ -153,15 +153,13 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 
-- **[Lines of Code](week%206/hello.py)** - _ print a hello + your name 
+- **[Lines of Code](week%206/lines/lines.py)** - _Takes a single command-line argument that must be a Python file, checks for its existence and .py extension, then prints the number of lines of code in that file, excluding blank lines and comments._
+  
+- **[Pizza Py](week%206/pizza/pizza.py)** - _Reads a specified CSV file, validates its extension and existence, then formats and prints its content as a grid-style table using the tabulate library._
 
-- **[Pizza Py](week%206/mario.py)** - _create an adjacent pyramid of blocks._
+- **[Scourgify](week%206/scourgify/scourgify.py)** - _Validates two command-line arguments as CSV file paths, then reads the first CSV, processes its 'name' and 'house' columns to split full names into 'first' and 'last', and writes the transformed data to the second CSV with new 'first', 'last', and 'house' headers._
 
-- **[Scourgify](week%206/cash.py)** - _minimize the number of coins given to a customer when making a change using greedy algorithms._
-
-- **[Readability](week%206/readability.py)** - _computes the approximate grade level needed to comprehend some text._
-
-- **[CS50 P-Shirt](week%206/dna)** -  _program that identifies a person based on their DNA._
+- **[CS50 P-Shirt](week%206/shirt/shirt.py)** -  _Accepts two command-line arguments (input and output image file paths), validates their extensions and existence, then overlays a "shirt.png" image onto the input image after fitting, saving the result to the output file._
 
 ---
 
@@ -171,15 +169,15 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- **[NUMB3RS](week%207/songs)** - _SQL queries that answer questions about a database of songs._
+- **[NUMB3RS](week%207/numb3rs)** - _One Python file validates if a string is a valid IPv4 address, checking format, digit content, range (0-255), and absence of leading zeros. A separate test file thoroughly verifies this validation logic with various correct and incorrect IPv4 address formats, including edge cases and expected error handling._
 
-- **[Watch on YouTube](week%207/movies/)** - _SQL queries that answer questions about a database of movies._
+- **[Watch on YouTube](week%207/watch/watch.py)** - _This Python code extracts the YouTube video ID from an HTML iframe embed code using regular expressions and constructs a YouTube URL using the extracted ID._
 
-- **[ Working 9 to 5](week%207/fiftyville)** - _write SQL queries to solve a mystery._
+- **[Working 9 to 5](week%207/working)** - _This set of files includes a Python script that converts time ranges from 12-hour (AM/PM) to 24-hour format, handling various input nuances and validating time components. Additionally, there is a separate test file using pytest that rigorously validates the convert function's behavior, checking for correct conversions, improper input formats, and out-of-range time values._
 
-- **[ Regular, um, Expressions](week%207/fiftyville)** - _write SQL queries to solve a mystery._
+- **[Regular, um, Expressions](week%207/um)** - _This pair of Python files includes a main script that counts the occurrences of the whole word "um" (case-insensitive) in a user-provided text, and a separate test file using pytest to extensively validate the count function against various inputs, including cases where "um" appears as a whole word, part of other words, or with surrounding punctuation and spaces._
 
-- **[Response Validation](week%207/fiftyville)** - _write SQL queries to solve a mystery._
+- **[Response Validation](week%207/response/response.py)** - _This script validates a user-provided email address, checking for a single "@" symbol and at least one dot in the domain, then prints "valid" or "invalid" based on these basic structural checks._
 
 ---
 
@@ -189,11 +187,11 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- **[Seasons of Love](week%208/trivia)** - _simple webpage that lets users answer trivia questions._
+- **[Seasons of Love](week%208/seasons)** - _This project consists of two Python files: a main script and a test file. The main script calculates the total minutes lived since a user-provided birth date and converts this number into English words. It robustly handles date input and utilizes the inflect library for number-to-word conversion. The accompanying test file uses pytest to validate the core logic of calculating minutes lived and converting numbers to words, ensuring accuracy and proper formatting for various numerical inputs._
 
-- **[Cookie Jar](week%208/homepage)** - _simple web application with multiple pages._
+- **[Cookie Jar](week%208/jar)** - _This Python code defines a Jar class that simulates a cookie jar with a fixed capacity, allowing users to deposit and withdraw cookies. It enforces constraints such as non-negative integer values for capacity, deposits, and withdrawals, and prevents exceeding capacity or withdrawing more cookies than available. A separate pytest file thoroughly tests all functionalities of the Jar class, including initialization with valid and invalid capacities, string representation, and the deposit and withdrawal methods, ensuring they handle valid operations and raise ValueError for invalid ones._
 
-- **[ CS50 Shirtificate](week%208/homepage)** - _simple web application with multiple pages._
+- **[CS50 Shirtificate](week%208/shirtificate/shirtificate.py)** - _This Python script uses the FPDF library to generate a PDF "shirtificate" document. It creates a custom PDF class that includes a header with a "CS50 SHIRTIFICATE" title and an embedded "shirtificate.png" image. The script then prompts the user for a name and generates a PDF displaying "[Name] took CS50" on the shirt, saving the output as shirtificate.pdf._
   
 ---
 
@@ -203,7 +201,7 @@ Keep in mind the course's [academic honesty](https://cs50.harvard.edu/x/2024/hon
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-- **[Final Project](week%209/birthdays)** - _web application that keeps track of birthdays._
+- **[Final Project](week%209)** - _Password genarator_
 
 ---
 
