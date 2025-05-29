@@ -1,6 +1,6 @@
 ## :label: **About CS50P**
 
-**[CS50P]([https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0](https://pll.harvard.edu/course/cs50s-introduction-programming-python))**  is an online introductory course focused exclusively on programming with Python. It teaches foundational Python concepts such as functions, variables, conditionals, and loops, alongside practical programming skills like handling exceptions, writing unit tests, using third-party libraries, regular expressions, and object-oriented programming.
+**[CS50P](https://pll.harvard.edu/course/cs50s-introduction-programming-python)**  is an online introductory course focused exclusively on programming with Python. It teaches foundational Python concepts such as functions, variables, conditionals, and loops, alongside practical programming skills like handling exceptions, writing unit tests, using third-party libraries, regular expressions, and object-oriented programming.
 
 ---
 
